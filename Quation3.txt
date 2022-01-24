@@ -1,0 +1,34 @@
+Quation--  3. Initialize On Object Creation
+
+i. Create a class Car which contains wheels and model as Instance variables.
+
+ii. Initialize the number of wheels of the car at the time of creating the Object of the 
+car and assign the model of the car to the model variable and print the model after 
+creating the object of the car class(not at the time of creating the object).
+
+Code--
+class CAR 
+{
+	int wheels;
+	String model;
+
+	CAR(int Wheels,String Model){
+		model = Model;
+		wheels = Wheels;
+	}
+
+	public void carInfo(){
+		System.out.println("Model Of Car:"+model);
+		System.out.println("Number Of Wheels:"+wheels);
+	}
+
+	public static void main(String[]args)
+	{
+		CAR car = new CAR("ENOVA",4);
+		car.carInfo();
+	}
+}
+
+output--
+Model Of Car is:ENOVA
+Number of Wheels are:4
