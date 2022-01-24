@@ -1,0 +1,16 @@
+Quation--  5. Find the output and write explanation?
+
+class Main {
+public static void main(String[] args) {
+int t;
+System.out.println("Value of variable t : "+t);
+}
+}
+
+
+Output--
+    error: variable t might not have been initialized
+      System.out.println("Value of variable t : "+t); compile time error
+    Explaination--
+It will give Compilation Error because,In Java if a Variable Declared in main method without Initialization and print it then, In java Globaly initialized variable then it will run.
+
