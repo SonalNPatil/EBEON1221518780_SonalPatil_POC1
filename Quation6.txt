@@ -1,0 +1,21 @@
+Quation-- 6. Find the output and write explanation?
+
+   class Test {
+       	public static void main(String[] args) {
+	  byte b = 127;
+	  ++b;
+	  b++;
+	  System.out.println("Value of variable b : "+b);
+	}
+    }
+
+Output--
+
+Value of variable b : -127
+
+Explanation-- 
+The Range of Byte is -128 to 127
+
+  variable b = -128 + 1
+	   b = -127
+ Output is -127.
